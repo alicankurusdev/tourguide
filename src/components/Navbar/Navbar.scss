@@ -1,0 +1,18 @@
+@import "../../scss/variables";
+
+nav{
+    background-color: $renk2;
+    text-align: center;
+    padding: 1rem;
+    a{
+        font-size: 3rem;
+        color: $renk1;
+        margin-right: 1.5rem;
+       &:hover {
+            background-color: $renk1;
+            color: $renk2;
+            border-radius: 5px;
+            padding: .1rem;
+        }
+    }
+}
