@@ -8,6 +8,9 @@ function App() {
     <div className="App">
 
 <Navbar/>
+<Navbar/>
+<Navbar/>
+<Navbar/>
 <Header/>
 <Main/>
     </div>

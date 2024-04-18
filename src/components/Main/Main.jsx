@@ -9,10 +9,9 @@ return (
     <main>
 
 {
-        data.map((item)=>{
-
+        data.map((item,index)=>{
             return(
-                    <Card item={item}/>
+                    <Card  item={item} key={index}/>
             )
         })
     }
