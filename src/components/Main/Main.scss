@@ -1,8 +1,15 @@
-
+@import "../../scss/mixins";
 main{
     width: 90%;
     margin: auto;
-    background-color:blueviolet;
     display: grid;
-    grid-template-columns: 4fr 4fr 4fr ;
+    grid-template-columns: repeat(3, 4fr);
+    gap: 2rem;
+    
+}
+@include media-lg{
+    main{
+        grid-template-columns: repeat(4, 3fr);
+
+    }
 }

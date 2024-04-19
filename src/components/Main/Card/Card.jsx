@@ -8,10 +8,11 @@ const Card =({ item })=>{
         
         <div className="card">
             <h3 className="title">{title}</h3>
-            <div className="card-image">
-                <img src={image} width="200px" alt="card-image"/>
+            <div className="card-image-container">
+                <img src={image}  alt="card-img"/>
+                <p className="card-info">{desc}</p>
+
             </div>
-            <p className="card-info">{desc}</p>
         </div>
     )
 }
