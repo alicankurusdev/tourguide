@@ -5,9 +5,35 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 4fr);
     gap: 2rem;
+    max-width: fit-content;
     
 }
+@include media-sm{
+    main{
+        grid-template-columns: repeat(1, 3fr);
+
+    }
+}
+@include media-xsm{
+    main{
+        grid-template-columns: repeat(1, 3fr);
+
+    }
+}
+@include media-md{
+    main{
+        grid-template-columns: repeat(2, 3fr);
+
+    }
+}
+
 @include media-lg{
+    main{
+        grid-template-columns: repeat(3, 3fr);
+
+    }
+}
+@include media-xl{
     main{
         grid-template-columns: repeat(4, 3fr);
 
